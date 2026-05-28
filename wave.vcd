@@ -1,0 +1,192 @@
+$date
+	Wed May 27 18:36:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module matrix_mul_tb $end
+$var wire 1 ! done $end
+$var wire 16 " c11 [15:0] $end
+$var wire 16 # c10 [15:0] $end
+$var wire 16 $ c01 [15:0] $end
+$var wire 16 % c00 [15:0] $end
+$var reg 8 & a00 [7:0] $end
+$var reg 8 ' a01 [7:0] $end
+$var reg 8 ( a10 [7:0] $end
+$var reg 8 ) a11 [7:0] $end
+$var reg 8 * b00 [7:0] $end
+$var reg 8 + b01 [7:0] $end
+$var reg 8 , b10 [7:0] $end
+$var reg 8 - b11 [7:0] $end
+$var reg 1 . clk $end
+$var reg 1 / rst $end
+$var reg 1 0 start $end
+$scope module dut $end
+$var wire 8 1 a00 [7:0] $end
+$var wire 8 2 a01 [7:0] $end
+$var wire 8 3 a10 [7:0] $end
+$var wire 8 4 a11 [7:0] $end
+$var wire 8 5 b00 [7:0] $end
+$var wire 8 6 b01 [7:0] $end
+$var wire 8 7 b10 [7:0] $end
+$var wire 8 8 b11 [7:0] $end
+$var wire 1 . clk $end
+$var wire 1 / rst $end
+$var wire 1 0 start $end
+$var reg 16 9 c00 [15:0] $end
+$var reg 16 : c01 [15:0] $end
+$var reg 16 ; c10 [15:0] $end
+$var reg 16 < c11 [15:0] $end
+$var reg 1 ! done $end
+$var reg 2 = state [1:0] $end
+$var reg 16 > temp_c00 [15:0] $end
+$var reg 16 ? temp_c01 [15:0] $end
+$var reg 16 @ temp_c10 [15:0] $end
+$var reg 16 A temp_c11 [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+00
+1/
+0.
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#5
+b0 "
+b0 <
+b0 #
+b0 ;
+b0 $
+b0 :
+b0 %
+b0 9
+0!
+b0 =
+1.
+#10
+0.
+#15
+1.
+#20
+0.
+b1000 -
+b1000 8
+b111 ,
+b111 7
+b110 +
+b110 6
+b101 *
+b101 5
+b100 )
+b100 4
+b11 (
+b11 3
+b10 '
+b10 2
+b1 &
+b1 1
+0/
+#25
+1.
+#30
+0.
+10
+#35
+b1 =
+b110010 A
+b101011 @
+b10110 ?
+b10011 >
+1.
+#40
+0.
+00
+#45
+b10 =
+b110010 "
+b110010 <
+b101011 #
+b101011 ;
+b10110 $
+b10110 :
+b10011 %
+b10011 9
+1.
+#50
+0.
+#55
+b0 =
+1!
+1.
+#60
+0.
+#65
+0!
+1.
+#70
+0.
+#75
+1.
+#80
+0.
+#85
+1.
+#90
+0.
+#95
+1.
+#100
+0.
+#105
+1.
+#110
+0.
+#115
+1.
+#120
+0.
+#125
+1.
+#130
+0.
+#135
+1.
+#140
+0.

@@ -1,0 +1,9 @@
+# running in matrix_mul/src/
+read -formal matrix_mul.sv
+read -formal matrix_mul_formal.sv
+prep -top matrix_mul_formal
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

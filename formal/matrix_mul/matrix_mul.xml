@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2026-05-28T00:37:22" hostname="kanak" package="matrix_mul" id="0" name="default" tests="4" errors="1" failures="0" time="0" skipped="4">
+<properties>
+<property name="os" value="Windows"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="ERROR"/>
+</properties>
+<testcase classname="default" name="build execution" time="0">
+<error type="ERROR"/>
+</testcase>
+<testcase classname="default" name="Property ASSERT in matrix_mul_formal at matrix_mul_formal.sv:49.9-49.45" time="0" type="ASSERT" location="matrix_mul_formal.sv:49.9-49.45" id="_witness_.check_assert_matrix_mul_formal_sv_49_4">
+<skipped />
+</testcase>
+<testcase classname="default" name="Property ASSERT in matrix_mul_formal at matrix_mul_formal.sv:50.9-50.45" time="0" type="ASSERT" location="matrix_mul_formal.sv:50.9-50.45" id="_witness_.check_assert_matrix_mul_formal_sv_50_9">
+<skipped />
+</testcase>
+<testcase classname="default" name="Property ASSERT in matrix_mul_formal at matrix_mul_formal.sv:52.9-52.45" time="0" type="ASSERT" location="matrix_mul_formal.sv:52.9-52.45" id="_witness_.check_assert_matrix_mul_formal_sv_52_14">
+<skipped />
+</testcase>
+<testcase classname="default" name="Property ASSERT in matrix_mul_formal at matrix_mul_formal.sv:53.9-53.45" time="0" type="ASSERT" location="matrix_mul_formal.sv:53.9-53.45" id="_witness_.check_assert_matrix_mul_formal_sv_53_19">
+<skipped />
+</testcase>
+<system-out>SBY  0:37:21 [matrix_mul] Removing directory 'C:/msys64/home/rawat/formal_projects/matrix_formal_project/formal/matrix_mul'.
+SBY  0:37:21 [matrix_mul] Copy 'C:/msys64/home/rawat/formal_projects/matrix_formal_project/formal/../rtl/matrix_mul.sv' to 'C:/msys64/home/rawat/formal_projects/matrix_formal_project/formal/matrix_mul/src/matrix_mul.sv'.
+SBY  0:37:21 [matrix_mul] Copy 'C:/msys64/home/rawat/formal_projects/matrix_formal_project/formal/matrix_mul_formal.sv' to 'C:/msys64/home/rawat/formal_projects/matrix_formal_project/formal/matrix_mul/src/matrix_mul_formal.sv'.
+SBY  0:37:21 [matrix_mul] engine_0: smtbmc z3
+SBY  0:37:21 [matrix_mul] base: starting process &quot;cd matrix_mul/src&amp; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\start is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\rst is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a11 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a10 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b11 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b01 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b10 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a01 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\b00 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\a00 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: Warning: Wire matrix_mul_formal.\clk is used but has no driver.
+SBY  0:37:21 [matrix_mul] base: finished (returncode=0)
+SBY  0:37:21 [matrix_mul] prep: starting process &quot;cd matrix_mul/model&amp; yosys -ql design_prep.log design_prep.ys&quot;
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\start is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\rst is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\clk is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a11 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a10 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b11 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b01 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b10 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a01 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\b00 [0] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [7] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [6] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [5] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [4] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [3] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [2] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [1] is used but has no driver.
+SBY  0:37:21 [matrix_mul] prep: Warning: Wire matrix_mul_formal.\a00 [0] is used but has no driver.
+SBY  0:37:22 [matrix_mul] prep: finished (returncode=0)
+SBY  0:37:22 [matrix_mul] smt2: starting process &quot;cd matrix_mul/model&amp; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY  0:37:22 [matrix_mul] smt2: finished (returncode=0)
+SBY  0:37:22 [matrix_mul] engine_0: starting process &quot;cd matrix_mul&amp; yosys-smtbmc -s z3 --presat --noprogress -t 20  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY  0:37:22 [matrix_mul] engine_0: failed to create process.
+SBY  0:37:22 [matrix_mul] engine_0: finished (returncode=0)
+SBY  0:37:22 [matrix_mul] ERROR: engine_0: Engine terminated without status.
+SBY  0:37:22 [matrix_mul] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  0:37:22 [matrix_mul] summary: Elapsed process time unvailable on Windows
+SBY  0:37:22 [matrix_mul] summary: engine_0 (smtbmc z3) did not return a status
+SBY  0:37:22 [matrix_mul] summary: engine_0 did not produce any traces
+SBY  0:37:22 [matrix_mul] DONE (ERROR, rc=16)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

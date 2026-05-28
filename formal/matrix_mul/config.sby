@@ -1,0 +1,15 @@
+[options]
+mode bmc
+depth 20
+
+[engines]
+smtbmc z3
+
+[script]
+read -formal matrix_mul.sv
+read -formal matrix_mul_formal.sv
+prep -top matrix_mul_formal
+
+[files]
+../rtl/matrix_mul.sv
+matrix_mul_formal.sv
