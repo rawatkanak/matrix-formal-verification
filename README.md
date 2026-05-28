@@ -172,10 +172,3 @@ This project demonstrates concepts used in ASIC/FPGA verification roles:
 * UVM-based environment
 
 ---
-
-# Resume Highlights
-
-* Developed and formally verified a SystemVerilog matrix multiplication accelerator using SymbiYosys and Z3.
-* Implemented assertion-based verification and bounded model checking for arithmetic correctness.
-* Performed waveform debugging and FSM verification using GTKWave and formal tools.
-* Built simulation and formal verification environments using open-source EDA tools.
