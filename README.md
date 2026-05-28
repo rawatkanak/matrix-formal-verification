@@ -160,15 +160,4 @@ This project demonstrates concepts used in ASIC/FPGA verification roles:
 * Property checking
 * Verification planning
 * Debugging and analysis
-
----
-
-# Future Improvements
-
-* Parameterized NxN matrix support
-* Constrained-random verification
-* Functional coverage
-* Induction proofs
-* UVM-based environment
-
 ---
