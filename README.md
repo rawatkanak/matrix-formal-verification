@@ -161,3 +161,5 @@ This project demonstrates concepts used in ASIC/FPGA verification roles:
 * Verification planning
 * Debugging and analysis
 ---
+
+Author: Kanak Rawat
