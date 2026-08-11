@@ -163,3 +163,4 @@ This project demonstrates concepts used in ASIC/FPGA verification roles:
 ---
 
 Author: Kanak Rawat
+Matrix Verification
